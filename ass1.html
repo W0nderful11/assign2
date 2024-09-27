@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <section id="about" class="about-section d-flex mb-5">
+            <div class="about-image flex-shrink-0 me-3">
+                <img src="me.jpg" alt="Atembek Shaimerden" class="img-fluid rounded">
+            </div>
+            <div class="about-info">
+                <h1>Hello, I'm Atembek Shaimerden</h1>
+                <p>I'm a student of IT-2305 at AITU. I love learning new things, especially Python libraries, which help enhance my programming skills. Besides coding, I enjoy running.</p>
+            </div>
+        </section>
+        
+        <section id="projects" class="projects-section mb-5">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Telegram Bot Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Telegram Bot</h5>
+                            <p class="card-text">This project is a Telegram bot for communication built with Python. Soon, it will feature AI for enhanced interaction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="progect2.jpg" class="card-img-top" alt="Pygame Library Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Pygame Library</h5>
+                            <p class="card-text">In my free time, I explore Pygame, a library for creating games in Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+    <footer id="contact" class="footer bg-dark text-white text-center py-3">
+        <p>Contact me: atem01@gmail.com | +7471824122</p>
+        <a href="https://github.com/W0nderful11" class="text-white">GitHub</a> | 
+        <a href="https://web.telegram.org/k/#@wins069" class="text-white">Telegram</a>
+    </footer>
+</body>
+</html>
